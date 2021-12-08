@@ -1,0 +1,11 @@
+IMAGE_NUMBER = 2000  # 从video里面读取的图片数量
+SELECT_INTERVAL = 2  # 在从video中读取的图片里每间隔多少张图片选择一张放到dataset里面
+BATCH_SIZE = 64
+VGG_EPOCH = 100
+VGG_BATCH_SIZE = 32
+TEST_SPLIT = 0.2
+LR = 0.01
+MOMENTUM = 0.7
+MIN_DELTA = 0.001
+PATIENCE = 10
+name_dict = {0: 'strangers', 1: 'syc', 2: 'jy', 3: 'yqs'}
